@@ -5,7 +5,7 @@ class Category(models.Model):
     name = models.CharField(max_length=30, unique=True)
 
     def __str__(self):
-        retun self.name
+        return self.name
 
 class Blog(models.Model):
     # CHOICES = (
@@ -20,7 +20,7 @@ class Blog(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
     updated_date = models.DateTimeField(auto_now=True)
 
-    def__str__(self):
+    def __str__(self):
         return self.title
     
 
