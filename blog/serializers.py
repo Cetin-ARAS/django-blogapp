@@ -21,5 +21,5 @@ class BlogSerializer(serializers.ModelSerializer):
             'category_id',
             'category',          
             'is_published',
-            'create_date',
+            'created_date',
         )
